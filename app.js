@@ -901,7 +901,7 @@ module.exports = path;
 /***/ (function(module, exports) {
 
 var path = 'C:/Users/Master/Documents/Nephilim-Breeding/src/app/components/result-display/template.html';
-var html = "<span></span><br>\r\n<label>{{$ctrl.id}}) {{$ctrl.character.gender}} Cub</label> \r\n    <br>\r\n    \r\n<label>B: {{$ctrl.character.breed}} Build</label>\r\n    <br>\r\n<label>C: {{$ctrl.character.skin}} Coat</label>\r\n<label data-ng-if=\"$ctrl.character.traities.length\"></label>\r\n<br>\r\n<label>E: {{ $ctrl.character.traities.join(', ') }} Eyes</label>\r\n<br>\r\n\r\n    <label>[ Hereditary Markings ]: {{ $ctrl.character.markings.join(', ') }}</label>\r\n        <label>{{traities}}</label>\r\n</label>\r\n    <br>\r\n<label data-ng-if=\"$ctrl.character.mutations.length\">\r\n    [Mutations:]\r\n    <label>{{ $ctrl.character.mutations.join(', ') }}</label>\r\n</label>\r\n";
+var html = "<span></span><br>\r\n<label>{{$ctrl.id}}) {{$ctrl.character.gender}} Cub</label> \r\n    <br>\r\n    \r\n<label>B: {{$ctrl.character.breed}} Build</label>\r\n    <br>\r\n<label>C: {{$ctrl.character.skin}} Coat</label>\r\n<br>\r\n\r\n    <label>[ Hereditary Markings ]: {{ $ctrl.character.markings.join(', ') }}</label>\r\n        <label>{{traities}}</label>\r\n</label>\r\n    <br>\r\n<label data-ng-if=\"$ctrl.character.mutations.length\">\r\n    [Mutations:]\r\n    <label>{{ $ctrl.character.mutations.join(', ') }}</label>\r\n</label>\r\n";
 window.angular.module('ng').run(['$templateCache', function(c) { c.put(path, html) }]);
 module.exports = path;
 
@@ -955,59 +955,8 @@ module.exports = {
 		}
 	],
 	"traities": [
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Amber",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Yellow",
-		"Blue",
-		"Blue",
-		"Blue",
-		"Silver",
-		"Brown",
-		"Brown",
-		"Brown",
-		"Brown",
-		"Brown",
-		"Brown",
-		"Brown",
-		"Brown",
-		"Brown"
+		"Standard",
+		"Standard"
 	],
 	"markings": [
 		"Alium",
@@ -1047,26 +996,6 @@ module.exports = {
 		"Sanguine",
 		"Sanguine",
 		"Vitiligo",
-		"Heterochromia: Amber",
-		"Heterochromia: Yellow",
-		"Heterochromia: Brown",
-		"Heterochromia: Silver",
-		"Heterochromia: Blue",
-		"Heterochromia: Amber",
-		"Heterochromia: Yellow",
-		"Heterochromia: Brown",
-		"Heterochromia: Silver",
-		"Heterochromia: Blue",
-		"Heterochromia: Amber",
-		"Heterochromia: Yellow",
-		"Heterochromia: Brown",
-		"Heterochromia: Silver",
-		"Heterochromia: Blue",
-		"Heterochromia: Amber",
-		"Heterochromia: Yellow",
-		"Heterochromia: Brown",
-		"Heterochromia: Silver",
-		"Heterochromia: Blue",
 		"Polycaudal"
 	]
 };
