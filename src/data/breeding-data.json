@@ -12,9 +12,16 @@
             "name": "Brute",
             "limited": false
         },
-
         {
             "name": "Regal",
+            "limited": false
+        },
+        {
+            "name": "Dwarf",
+            "limited": false
+        },
+        {
+            "name": "Domestic",
             "limited": false
         }
     ],
